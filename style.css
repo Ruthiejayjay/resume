@@ -1,0 +1,107 @@
+body {
+    font-family: Arial;
+	font-size: 15px; 
+    padding-top: 40px;
+    justify-content: center;
+    display: flex;
+}
+.main {
+    width: 60%;
+    display: flex;
+    border: solid rgba(0, 119, 255, 0.363);  
+}
+.side{
+    padding: 20px;
+    background-color: rgb(100, 118, 175);
+    width: 30%;
+    /* display: flex; */
+}
+.sidebar{
+    padding: 8px;
+}
+.sidebar-header{
+    display: flex;
+    justify-content: center;
+}
+ul {
+    color: white;
+    list-style: none;
+    padding: 0;
+}
+h4 {
+    margin-top: 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+.nav-item {
+    display: flex;
+    font-size: 15px;
+}
+
+ul a {
+    text-decoration: none;
+    color: white;
+}
+.nav-item span {
+    padding: 7px;
+}
+.skill-list {
+    font-size: 15px;
+    list-style: square;
+}
+.resume {
+    padding: 20px;
+}
+.name {
+    border-bottom: 5px solid black;
+    padding-right: 100px;
+}
+h2 {
+    color: rgb(100, 118, 175);
+    margin-bottom: 0;
+    
+}
+.summary-title {
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.black {
+    color: black;
+    list-style-type: circle;
+    padding-left: 10px;
+    padding-top: 0;
+}
+
+.history .jobs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.jobs h5 {
+    margin: 0;
+}
+footer p{
+    font-size: 12px;
+}
+p a {
+    
+    text-decoration: none;
+}
+
+
+  @media only screen 
+  and (max-width: 600px) {
+     
+    .main {
+        width: 100%;
+        font-size: 12px;
+    }
+   nav{
+       font-size: 2px;
+   }
+   img{
+       width: 65;
+       height: 65;
+   }
+  }
